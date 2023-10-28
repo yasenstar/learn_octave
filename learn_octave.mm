@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Learn Octave" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1698516908652" VGAP_QUANTITY="3 pt">
+<node TEXT="Learn Octave" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1698517007269" LINK="https://octave.org/#" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#fbf1c7">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_gruvbox_template.mm"/>
@@ -77,5 +77,11 @@
 </map_styles>
 </hook>
 <hook URI="img/Octave_Logo.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="01 A Brief introduction to Octave" POSITION="bottom_or_right" ID="ID_1613372949" CREATED="1698516925554" MODIFIED="1698516939587">
+<node TEXT="1.0 Download and Install Octave" ID="ID_458743544" CREATED="1698516962672" MODIFIED="1698516978564"/>
+<node TEXT="1.1 Running Octave" ID="ID_1400326525" CREATED="1698516978865" MODIFIED="1698516982705"/>
+<node TEXT="1.2 Simple Samples" ID="ID_45657545" CREATED="1698516985617" MODIFIED="1698516991874"/>
+<node TEXT="1.3 Conventions" ID="ID_158978199" CREATED="1698517039905" MODIFIED="1698517043698"/>
+</node>
 </node>
 </map>
