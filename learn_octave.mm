@@ -77,8 +77,9 @@
 </map_styles>
 </hook>
 <hook URI="img/Octave_Logo.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="00 Octave.pdf book" POSITION="bottom_or_right" ID="ID_456043653" CREATED="1698518777723" MODIFIED="1698518794358" LINK="https://docs.octave.org/octave.pdf"/>
 <node TEXT="01 A Brief introduction to Octave" POSITION="bottom_or_right" ID="ID_1613372949" CREATED="1698516925554" MODIFIED="1698516939587">
-<node TEXT="1.0 Download and Install Octave" ID="ID_458743544" CREATED="1698516962672" MODIFIED="1698516978564"/>
+<node TEXT="1.0 Download and Install Octave" ID="ID_458743544" CREATED="1698516962672" MODIFIED="1698518761596" LINK="https://octave.org/download"/>
 <node TEXT="1.1 Running Octave" ID="ID_1400326525" CREATED="1698516978865" MODIFIED="1698516982705"/>
 <node TEXT="1.2 Simple Samples" ID="ID_45657545" CREATED="1698516985617" MODIFIED="1698516991874"/>
 <node TEXT="1.3 Conventions" ID="ID_158978199" CREATED="1698517039905" MODIFIED="1698517043698"/>
