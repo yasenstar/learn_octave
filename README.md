@@ -1,6 +1,8 @@
 # Octave - Learn by Practicing
 
-![Octave](img/Octave_Logo.png) is one opensource scientific programming language for numerical computations.
+![Octave](img/Octave_Logo.png)
+
+is one opensource scientific programming language for numerical computations.
 
 This repository records my learning of [Octave](https://octave.org/#) and shares the practical experience during learning.
 
