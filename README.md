@@ -4,11 +4,20 @@
 
 is one opensource scientific programming language for numerical computations.
 
+## About this Repository
+
 This repository records my learning of [Octave](https://octave.org/#) and shares the practical experience during learning.
+
+The repository is regularly synced to Gitee:
+
+- Link of Repository in Github: https://github.com/yasenstar/learn_octave
+- Link of Repository in Gitee: https://gitee.com/yasenstar/learn_octave
 
 The version of Octave used in version 8.3.0.
 
 ---
+
+## Reference Documents
 
 | Reference Document | Link in Octave Site | Local link in This Repo |
 | --- | --- | --- |
@@ -16,7 +25,18 @@ The version of Octave used in version 8.3.0.
 | Octave Quick Reference | [link](https://docs.octave.org/quickref.pdf) | [local link](/reference/quickref.pdf) |
 | Octave Reference Card | [link](https://docs.octave.org/refcard.pdf) | [local link](/reference/refcard.pdf) |
 
+---
+
+## Tutorial Videos
+
 Here is the [video list in my YouTube Channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeUho-j-75rbFs6TBxG7KOPg).
+
+You can go to specific videos from below links directly (keep updating):
+
+| Video Title | Link in YouTube | Link in bilibili |
+| --- | --- | --- |
+| | |
+| | |
 
 ---
 
