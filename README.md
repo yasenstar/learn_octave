@@ -35,8 +35,8 @@ You can go to specific videos from below links directly (keep updating):
 
 | Video Title | Link in YouTube | Link in bilibili |
 | --- | --- | --- |
-| | |
-| | |
+| 001 Opening and Installation | TBA | [link](https://www.bilibili.com/video/BV1LN41137jJ/) |
+| 002 Simple Examples | TBA | [link](https://www.bilibili.com/video/BV1Dz4y1P77z/) |
 
 ---
 
