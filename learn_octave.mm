@@ -112,10 +112,22 @@
 <node TEXT="Use &quot;left division&quot; &apos;\&apos; to solve the set of linear equations Ax = b:  x = A \ b (conceptually equivalent to A^(-1)b" ID="ID_271130368" CREATED="1698540677229" MODIFIED="1698540739216"/>
 <node TEXT="Solve the balanced chemical equations" ID="ID_1786798553" CREATED="1698540872389" MODIFIED="1698540897710"/>
 </node>
-<node TEXT="Integrating Differential Equations" ID="ID_598927477" CREATED="1698537346598" MODIFIED="1698537355209"/>
-<node TEXT="Producing Graphical Output" ID="ID_1338536761" CREATED="1698537355910" MODIFIED="1698537362809"/>
-<node TEXT="Help and Documentation" ID="ID_931902662" CREATED="1698537363238" MODIFIED="1698537366912"/>
-<node TEXT="Editing What You Have Typed" ID="ID_1391304170" CREATED="1698537367094" MODIFIED="1698537374912"/>
+<node TEXT="1.2.5 Integrating Differential Equations" ID="ID_598927477" CREATED="1698537346598" MODIFIED="1698541484449" LINK="https://www.osti.gov/biblio/145724"/>
+<node TEXT="1.2.6 Producing Graphical Output" ID="ID_1338536761" CREATED="1698537355910" MODIFIED="1698541494583">
+<node TEXT="Display solution of 1.2.5: plot(t,x), you can use &quot;close&quot; to quite the plot" ID="ID_1715549295" CREATED="1698541530372" MODIFIED="1698541696950">
+<hook URI="img/1.2.6.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="To save a plot once it has been displayed on the screen: print foo.pdf (the file will be generated in current working directory)" ID="ID_436068914" CREATED="1698541757925" MODIFIED="1698541789088"/>
+</node>
+<node TEXT="1.2.7 Help and Documentation" ID="ID_931902662" CREATED="1698537363238" MODIFIED="1698541809216"/>
+<node TEXT="1.2.8 Editing What You Have Typed" ID="ID_1391304170" CREATED="1698537367094" MODIFIED="1698541932061">
+<arrowlink DESTINATION="ID_75318605"/>
+<node TEXT="The default keybindings use Emacs-style commands." ID="ID_816176523" CREATED="1698541828039" MODIFIED="1698541852955"/>
+<node TEXT="To recall the previous command: Control-p" ID="ID_1204460863" CREATED="1698541853156" MODIFIED="1698541867294"/>
+<node TEXT="To bring up the next line of input: Control-n" ID="ID_98656902" CREATED="1698541867509" MODIFIED="1698541885399"/>
+<node TEXT="To move the cursor backward on the line: Control-b" ID="ID_1289350884" CREATED="1698541885949" MODIFIED="1698541901966"/>
+<node TEXT="To move the cursor forward on the line: Control-f" ID="ID_933372720" CREATED="1698541902237" MODIFIED="1698541914318"/>
+</node>
 </node>
 <node TEXT="1.3 Conventions" ID="ID_158978199" CREATED="1698517039905" MODIFIED="1698517043698"/>
 </node>
