@@ -91,9 +91,27 @@
 <node TEXT="exponentiation: ^" ID="ID_31093942" CREATED="1698538745991" MODIFIED="1698538755092"/>
 <node TEXT="natural logarithms (log), natural exponents (exp)" ID="ID_1868105650" CREATED="1698538767134" MODIFIED="1698538807833"/>
 <node TEXT="trigonometric functions: sin, cos, tan, ..." ID="ID_564662639" CREATED="1698538808861" MODIFIED="1698538837160"/>
+<node TEXT="real and imaginary numbers (i, j)" ID="ID_406430440" CREATED="1698538978877" MODIFIED="1698538991558"/>
+<node TEXT="mathematical constants" ID="ID_470212021" CREATED="1698538998669" MODIFIED="1698539008638">
+<node TEXT="the base of the natural logarithm (e): e = 2.7183" ID="ID_1847317051" CREATED="1698539008641" MODIFIED="1698539038079"/>
+<node TEXT="the ratio of a circle&apos;s circumference to its diameter (pi): pi = 3.1416" ID="ID_807683978" CREATED="1698539040006" MODIFIED="1698539067335"/>
 </node>
-<node TEXT="Creating a Matrix" ID="ID_541309012" CREATED="1698537317086" MODIFIED="1698537323181"/>
-<node TEXT="Solving Systems of Linear Equations" ID="ID_90992584" CREATED="1698537337287" MODIFIED="1698537346015"/>
+</node>
+<node TEXT="1.2.2 Creating a Matrix" ID="ID_541309012" CREATED="1698537317086" MODIFIED="1698540300592">
+<node TEXT="Octave is case sensitive to the variable names" ID="ID_663431912" CREATED="1698539939893" MODIFIED="1698539956878"/>
+<node TEXT="Octave uses a comma(,) or space( ) to separate entries in a row, and a semicolon(;) or carriage return to separate one row from the next" ID="ID_1142365596" CREATED="1698539758101" MODIFIED="1698539875529"/>
+<node TEXT="Ending a command with a semicolon(;) tells Octave not to print the result of the command" ID="ID_107639486" CREATED="1698539881013" MODIFIED="1698539914446"/>
+<node TEXT="Simply type the name of the variables will display its value" ID="ID_626935240" CREATED="1698539976414" MODIFIED="1698539993694"/>
+</node>
+<node TEXT="1.2.3 Matrix Arithmetic" ID="ID_963301797" CREATED="1698540301590" MODIFIED="1698540308504">
+<node TEXT="Multiply the matrix A by a scalar value: 2 * A" ID="ID_604067846" CREATED="1698540308505" MODIFIED="1698540333142"/>
+<node TEXT="Multiply two matrices: A * B" ID="ID_463973109" CREATED="1698540333557" MODIFIED="1698540350334"/>
+<node TEXT="Form the matrix product A(T)A: A&apos; * A" ID="ID_543603179" CREATED="1698540350493" MODIFIED="1698540375504"/>
+</node>
+<node TEXT="1.2.4 Solving Systems of Linear Equations" ID="ID_90992584" CREATED="1698537337287" MODIFIED="1698540930777">
+<node TEXT="Use &quot;left division&quot; &apos;\&apos; to solve the set of linear equations Ax = b:  x = A \ b (conceptually equivalent to A^(-1)b" ID="ID_271130368" CREATED="1698540677229" MODIFIED="1698540739216"/>
+<node TEXT="Solve the balanced chemical equations" ID="ID_1786798553" CREATED="1698540872389" MODIFIED="1698540897710"/>
+</node>
 <node TEXT="Integrating Differential Equations" ID="ID_598927477" CREATED="1698537346598" MODIFIED="1698537355209"/>
 <node TEXT="Producing Graphical Output" ID="ID_1338536761" CREATED="1698537355910" MODIFIED="1698537362809"/>
 <node TEXT="Help and Documentation" ID="ID_931902662" CREATED="1698537363238" MODIFIED="1698537366912"/>

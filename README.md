@@ -18,10 +18,6 @@ The version of Octave used in version 8.3.0.
 
 Here is the [video list in my YouTube Channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeUho-j-75rbFs6TBxG7KOPg).
 
-Here is the image export of the learning mindmap (keep updating):
-
-![mm](img/learn_octave.jpg)
-
 ---
 
 Some other similar tools like Octave which are treated also as Matlab's open source alternatives:
@@ -34,3 +30,9 @@ Some other similar tools like Octave which are treated also as Matlab's open sou
 ---
 
 Feel free to raise any questions in comments, or [email here](mailto:xiaoqizhao@outlook.com), I'll try my best to answer!
+
+---
+
+Here is the image export of the learning mindmap (keep updating), you may use this [source mindmap](/learn_octave.mm) to navigate in the knowledge to learn:
+
+![mm](img/learn_octave.jpg)
