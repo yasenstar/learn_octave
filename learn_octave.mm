@@ -140,7 +140,32 @@
 <node TEXT="2.6 Executable Octave Programs" ID="ID_1023516562" CREATED="1698537540126" MODIFIED="1698537546943"/>
 <node TEXT="2.7 Comments in Octave Programs" ID="ID_1756818606" CREATED="1698537547142" MODIFIED="1698537553752"/>
 </node>
-<node TEXT="03 Data Types" POSITION="bottom_or_right" ID="ID_646856892" CREATED="1698537662607" MODIFIED="1698537665455"/>
+<node TEXT="03 Data Types" POSITION="bottom_or_right" ID="ID_646856892" CREATED="1698537662607" MODIFIED="1698673997329"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Defining one new data type for Octave:
+    </p>
+    <p>
+      <span style="font-style: italic;">typestr = typeinfo (expr) </span>
+    </p>
+    <p>
+      <span style="font-style: italic;">cstr = typeinfo ()</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="3.1 Built-in Data Types" ID="ID_743664830" CREATED="1698674025652" MODIFIED="1698674039181">
+<node TEXT="Real and Complex Scalars and Matrices" ID="ID_565718139" CREATED="1698674046696" MODIFIED="1698674071564"/>
+<node TEXT="Ranges" ID="ID_1200919815" CREATED="1698674072421" MODIFIED="1698674075212"/>
+<node TEXT="Character Strings" ID="ID_327112246" CREATED="1698674075384" MODIFIED="1698674080342"/>
+<node TEXT="Data Structure" ID="ID_238686123" CREATED="1698674080919" MODIFIED="1698674084779"/>
+<node TEXT="Cell Array" ID="ID_1709917318" CREATED="1698674084944" MODIFIED="1698674087305"/>
+</node>
+</node>
 <node TEXT="04 Numeric Data Types" POSITION="bottom_or_right" ID="ID_1314018488" CREATED="1698537665614" MODIFIED="1698537670304"/>
 <node TEXT="05 Strings" POSITION="bottom_or_right" ID="ID_782921727" CREATED="1698537670478" MODIFIED="1698537676552"/>
 <node TEXT="06 Data Containers" POSITION="bottom_or_right" ID="ID_1350175196" CREATED="1698537679190" MODIFIED="1698537684040"/>
