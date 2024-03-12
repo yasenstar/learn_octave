@@ -35,8 +35,8 @@ You can go to specific videos from below links directly (keep updating):
 
 | Video Title | Link in YouTube | Link in bilibili |
 | --- | --- | --- |
-| 001 Opening and Installation | TBA | [link](https://www.bilibili.com/video/BV1LN41137jJ/) |
-| 002 Simple Examples | TBA | [link](https://www.bilibili.com/video/BV1Dz4y1P77z/) |
+| Learn Octave 001 - Opening and Installation 开篇与Octave安装 | [link](https://youtu.be/lNWVv0z9uaI) | [link](https://www.bilibili.com/video/BV1LN41137jJ/) |
+| Learn Octave 002 - Simple Examples 初步的简单示例 | [link](https://youtu.be/o83O3ZGDiyE) | [link](https://www.bilibili.com/video/BV1Dz4y1P77z/) |
 
 ---
 
