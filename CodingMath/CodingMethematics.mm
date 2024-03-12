@@ -3,7 +3,7 @@
 <node TEXT="编程数学&#xa;Coding Methematics" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1710268553473">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
 
 <map_styles>
@@ -83,7 +83,9 @@
 </map_styles>
 </hook>
 <node TEXT="1. Octave的安装和使用" POSITION="bottom_or_right" ID="ID_623504470" CREATED="1710268577135" MODIFIED="1710268586113">
-<node TEXT="1.1 Octave的下载" ID="ID_1375133305" CREATED="1710268632504" MODIFIED="1710268637785"/>
+<node TEXT="1.1 Octave的下载" ID="ID_1375133305" CREATED="1710268632504" MODIFIED="1710273798012" LINK="https://www.octave.org/download">
+<node TEXT="Windows Terminal as Default Command Line" ID="ID_1562972715" CREATED="1710274711791" MODIFIED="1710274725103" LINK="https://devblogs.microsoft.com/commandline/windows-terminal-as-your-default-command-line-experience/"/>
+</node>
 <node TEXT="1.2 Octave的安装" ID="ID_581994124" CREATED="1710268638217" MODIFIED="1710268644349"/>
 </node>
 <node TEXT="2. 消防所选址问题" POSITION="bottom_or_right" ID="ID_1329446901" CREATED="1710268586295" MODIFIED="1710268595750">
@@ -98,7 +100,7 @@
 <node TEXT="2.1.8 目的地数量众多时的出租车距离计算" ID="ID_605869018" CREATED="1710268955035" MODIFIED="1710268972349"/>
 <node TEXT="2.1.9 有没有更简单的方法" ID="ID_517616186" CREATED="1710268972514" MODIFIED="1710268982487"/>
 </node>
-<node TEXT="2.2 用Octave寻找消防所的最佳位置" FOLDED="true" ID="ID_787464526" CREATED="1710268662080" MODIFIED="1710268679374">
+<node TEXT="2.2 用Octave寻找消防所的最佳位置" ID="ID_787464526" CREATED="1710268662080" MODIFIED="1710268679374">
 <node TEXT="2.2.1 本章中使用的Octave的语句" ID="ID_1339613255" CREATED="1710268985805" MODIFIED="1710269079078"/>
 <node TEXT="2.2.2 随机点与特定点的出租车距离计算" ID="ID_814656179" CREATED="1710269001499" MODIFIED="1710269074749"/>
 <node TEXT="2.2.3 寻找随机向量中的最小值" ID="ID_821655228" CREATED="1710269018046" MODIFIED="1710269070334"/>
