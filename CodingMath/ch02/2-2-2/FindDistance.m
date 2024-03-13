@@ -15,11 +15,11 @@ NoH = 30;
 x = randi([0 nx], NoH, 1);
 y = randi([0 ny], NoH, 1);
 
-plot(x, y, 'b*', 'linewidth', 10)
+plot(x, y, 'b*', 'linewidth', 10);
 
 i = 5; j = 12;
 
-plot(i, j, 'rx', 'linewidth', 10)
+plot(i, j, 'ro', 'linewidth', 2);
 
 axis image
 

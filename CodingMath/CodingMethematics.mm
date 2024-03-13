@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3" zoom="1.396">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -99,7 +99,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2. 消防所选址问题" POSITION="bottom_or_right" ID="ID_1329446901" CREATED="1710268586295" MODIFIED="1710268595750">
+<node TEXT="2. 消防所选址问题" FOLDED="true" POSITION="bottom_or_right" ID="ID_1329446901" CREATED="1710268586295" MODIFIED="1710268595750">
 <node TEXT="2.1 出租车距离的定义和例题" FOLDED="true" ID="ID_33017483" CREATED="1710268647784" MODIFIED="1710268661768">
 <node TEXT="2.1.1 什么是出租车距离" ID="ID_420296917" CREATED="1710268866758" MODIFIED="1710268879167">
 <node TEXT="平面上两个点的最短距离:&#xa;d = sqrt((x1-x2)^2+(y1-y2)^2)" ID="ID_124211451" CREATED="1710279310928" MODIFIED="1710279365705"/>
@@ -116,8 +116,8 @@
 <node TEXT="2.1.8 目的地数量众多时的出租车距离计算" ID="ID_605869018" CREATED="1710268955035" MODIFIED="1710268972349"/>
 <node TEXT="2.1.9 有没有更简单的方法" ID="ID_517616186" CREATED="1710268972514" MODIFIED="1710268982487"/>
 </node>
-<node TEXT="2.2 用Octave寻找消防所的最佳位置" ID="ID_787464526" CREATED="1710268662080" MODIFIED="1710268679374">
-<node TEXT="2.2.1 本章中使用的Octave的语句" FOLDED="true" ID="ID_1339613255" CREATED="1710268985805" MODIFIED="1710269079078">
+<node TEXT="2.2 用Octave寻找&#xa;消防所的最佳位置" FOLDED="true" ID="ID_787464526" CREATED="1710268662080" MODIFIED="1710350969879">
+<node TEXT="2.2.1 本章中使用的Octave的语句" ID="ID_1339613255" CREATED="1710268985805" MODIFIED="1710269079078">
 <node TEXT="循环语句" FOLDED="true" ID="ID_1936939594" CREATED="1710279801183" MODIFIED="1710279810072">
 <node TEXT="for 反复次数=初始值:最终值&#xa;        命令1&#xa;        命令2&#xa;        ...&#xa;end" ID="ID_834102633" CREATED="1710279810074" MODIFIED="1710279853849"/>
 </node>
@@ -142,9 +142,9 @@
 <node TEXT="2.2.5 寻找消防所的最佳位置" ID="ID_1601966956" CREATED="1710269041173" MODIFIED="1710269057166"/>
 </node>
 </node>
-<node TEXT="3. 旅行商问题" FOLDED="true" POSITION="bottom_or_right" ID="ID_139222882" CREATED="1710268595913" MODIFIED="1710268604109">
-<node TEXT="3.1 什么是旅行商问题" ID="ID_1688610845" CREATED="1710268682376" MODIFIED="1710268690143"/>
-<node TEXT="3.2 用Octave找出快递的最短配送路径" FOLDED="true" ID="ID_1797945118" CREATED="1710268690354" MODIFIED="1710268704853">
+<node TEXT="3. 旅行商问题" POSITION="bottom_or_right" ID="ID_139222882" CREATED="1710268595913" MODIFIED="1710268604109">
+<node TEXT="3.1 什么是旅行商问题" ID="ID_1688610845" CREATED="1710268682376" MODIFIED="1710351527235" LINK="https://zh.wikipedia.org/wiki/%E6%97%85%E8%A1%8C%E6%8E%A8%E9%94%80%E5%91%98%E9%97%AE%E9%A2%98"/>
+<node TEXT="3.2 用Octave找出快递的最短配送路径" ID="ID_1797945118" CREATED="1710268690354" MODIFIED="1710268704853">
 <node TEXT="3.2.1 本章中使用的Octave的语句" ID="ID_1074697211" CREATED="1710269093214" MODIFIED="1710269106422"/>
 <node TEXT="3.2.2 寻找快速配送路径" ID="ID_982120525" CREATED="1710269106786" MODIFIED="1710269118534"/>
 <node TEXT="3.2.3 最近处邻居算法" ID="ID_117607147" CREATED="1710269118675" MODIFIED="1710269129909"/>
