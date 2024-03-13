@@ -3,7 +3,7 @@
 <node TEXT="编程数学&#xa;Coding Methematics" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1710268553473">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3" zoom="1.074">
+<hook NAME="MapStyle" background="#fdf6e3" zoom="1.396">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_solarized_template.mm"/>
 
 <map_styles>
@@ -117,14 +117,14 @@
 <node TEXT="2.1.9 有没有更简单的方法" ID="ID_517616186" CREATED="1710268972514" MODIFIED="1710268982487"/>
 </node>
 <node TEXT="2.2 用Octave寻找消防所的最佳位置" ID="ID_787464526" CREATED="1710268662080" MODIFIED="1710268679374">
-<node TEXT="2.2.1 本章中使用的Octave的语句" ID="ID_1339613255" CREATED="1710268985805" MODIFIED="1710269079078">
-<node TEXT="循环语句" ID="ID_1936939594" CREATED="1710279801183" MODIFIED="1710279810072">
+<node TEXT="2.2.1 本章中使用的Octave的语句" FOLDED="true" ID="ID_1339613255" CREATED="1710268985805" MODIFIED="1710269079078">
+<node TEXT="循环语句" FOLDED="true" ID="ID_1936939594" CREATED="1710279801183" MODIFIED="1710279810072">
 <node TEXT="for 反复次数=初始值:最终值&#xa;        命令1&#xa;        命令2&#xa;        ...&#xa;end" ID="ID_834102633" CREATED="1710279810074" MODIFIED="1710279853849"/>
 </node>
-<node TEXT="条件语句" ID="ID_1210481010" CREATED="1710280062500" MODIFIED="1710280068605">
-<node TEXT="if 条件语句&#xa;命令集合（条件语句为真的情况下的执行部分）&#xa;endif" ID="ID_1892648831" CREATED="1710280068607" MODIFIED="1710280078263"/>
+<node TEXT="条件语句" FOLDED="true" ID="ID_1210481010" CREATED="1710280062500" MODIFIED="1710280068605">
+<node TEXT="if 条件语句&#xa;命令集合（条件语句为真的情况下的执行部分）&#xa;end" ID="ID_1892648831" CREATED="1710280068607" MODIFIED="1710292838155"/>
 </node>
-<node TEXT="直线绘制" ID="ID_43549718" CREATED="1710280111935" MODIFIED="1710285770430">
+<node TEXT="直线绘制" FOLDED="true" ID="ID_43549718" CREATED="1710280111935" MODIFIED="1710285770430">
 <node TEXT="line([x1 x2],[y1 y2])" ID="ID_975130080" CREATED="1710280121474" MODIFIED="1710285684126"/>
 </node>
 <node TEXT="图像绘制" FOLDED="true" ID="ID_1036359059" CREATED="1710285770926" MODIFIED="1710285782471">
