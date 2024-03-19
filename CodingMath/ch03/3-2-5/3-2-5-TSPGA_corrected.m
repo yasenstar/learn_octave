@@ -1,12 +1,12 @@
 clear; figure(1); clf
 n = 50;
-dims = 3;
+dims = 2;
 xy = 10*rand(n,dims);
 numIter = 10000;
 
 for i=1:n
   for j=1:n
-    dmat(i,j)=sqrt(sum((xy(1,:)-xy(j,:)).^2)); % xy(1,:) should be xy(i,:)
+    dmat(i,j)=sqrt(sum((xy(i,:)-xy(j,:)).^2));
   endfor
 end
 
