@@ -1,5 +1,5 @@
 clear;clf;hold on
-n = 1000
+n = 10000
 xn = (rand(n,1)-0.5)*4 + 0.5;
 yn = -3.5*rand(n,1) + 1.5;
 
