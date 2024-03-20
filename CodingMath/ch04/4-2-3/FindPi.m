@@ -1,6 +1,6 @@
 clear;clf;
 hold on
-N = 10000;
+N = 1000;
 count = 0;
 for i = 1:N
   x = 2*rand(1)-1;
