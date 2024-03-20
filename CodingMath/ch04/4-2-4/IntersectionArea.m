@@ -63,3 +63,5 @@ pq = p*q
 inside = (p^2+q^2)*(1-0.25*sqrt(p^2+q^2))
 middle = pq+theta-sqrt(inside)
 exact = 0.5*(middle)
+
+% Question: my "exact" is 0.4733, not 0.56884, why?
