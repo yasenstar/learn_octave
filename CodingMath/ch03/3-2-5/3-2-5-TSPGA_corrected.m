@@ -1,6 +1,6 @@
 clear; figure(1); clf
 n = 50;
-dims = 2;
+dims = 3;
 xy = 10*rand(n,dims);
 numIter = 10000;
 
@@ -48,7 +48,7 @@ for iter = 1:numIter
     endif
     title(sprintf('Total Distance = %1.4f, Iteration = %d', minDist, iter));
     axis square
-    pause(0.1)
+    pause(0.2)
   endif
   [ignore, idx] = min(totalDist);
   bestOf4Route = routes(idx, :);
