@@ -14,6 +14,8 @@ The book can be purchased at jd.com: https://item.jd.com/12724025.html, or read 
 
 ## Step by Step Learning Video
 
+Here I've published the full course in [Udemy](https://www.udemy.com/course/coding-mathematics-via-octeva/?referralCode=17DE26ECE0F2BB29DA4B) if you hope to view them in more systematical way! Thanks for your support!
+
 [Link in My YouTube Channel](https://www.youtube.com/playlist?list=PL6DEHvciXKeW7wVsceucyZTEK6-_CjPFq), speaking in Chinese Mandarin
 
 ---
