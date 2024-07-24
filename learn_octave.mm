@@ -3,7 +3,7 @@
 <node TEXT="Learn Octave" FOLDED="false" ID="ID_1090958577" CREATED="1606664858024" MODIFIED="1698517007269" LINK="https://octave.org/#" VGAP_QUANTITY="3 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#fbf1c7" zoom="1.001">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_gruvbox_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_gruvbox_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -78,7 +78,7 @@
 </hook>
 <hook URI="img/Octave_Logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="00 Octave.pdf book" POSITION="bottom_or_right" ID="ID_456043653" CREATED="1698518777723" MODIFIED="1698518794358" LINK="https://docs.octave.org/octave.pdf"/>
-<node TEXT="01 A Brief introduction to Octave" POSITION="bottom_or_right" ID="ID_1613372949" CREATED="1698516925554" MODIFIED="1698516939587">
+<node TEXT="01 A Brief introduction to Octave" FOLDED="true" POSITION="bottom_or_right" ID="ID_1613372949" CREATED="1698516925554" MODIFIED="1698516939587">
 <node TEXT="1.0 Download and Install Octave" ID="ID_458743544" CREATED="1698516962672" MODIFIED="1698518761596" LINK="https://octave.org/download"/>
 <node TEXT="1.1 Running Octave" ID="ID_1400326525" CREATED="1698516978865" MODIFIED="1698516982705">
 <node TEXT="Interrupt operation: Control-C" ID="ID_843257183" CREATED="1698538886031" MODIFIED="1698538902664"/>
@@ -131,7 +131,8 @@
 </node>
 <node TEXT="1.3 Conventions" ID="ID_158978199" CREATED="1698517039905" MODIFIED="1698517043698"/>
 </node>
-<node TEXT="02 Getting Started" POSITION="bottom_or_right" ID="ID_1424949438" CREATED="1698537490806" MODIFIED="1698537497830">
+<node TEXT="Upgrading Octave from 8.4.0 to 9.2.0" POSITION="bottom_or_right" ID="ID_356283314" CREATED="1721806037541" MODIFIED="1721807540126"/>
+<node TEXT="02 Getting Started" FOLDED="true" POSITION="bottom_or_right" ID="ID_1424949438" CREATED="1698537490806" MODIFIED="1698537497830">
 <node TEXT="2.1 Invoking Octave from the Command Line" ID="ID_841508592" CREATED="1698537497833" MODIFIED="1698537507560"/>
 <node TEXT="2.2 Quitting Octave" ID="ID_824430478" CREATED="1698537511726" MODIFIED="1698537516472"/>
 <node TEXT="2.3 Commands for Getting Help" ID="ID_1326353654" CREATED="1698537516613" MODIFIED="1698537523423"/>
@@ -140,7 +141,8 @@
 <node TEXT="2.6 Executable Octave Programs" ID="ID_1023516562" CREATED="1698537540126" MODIFIED="1698537546943"/>
 <node TEXT="2.7 Comments in Octave Programs" ID="ID_1756818606" CREATED="1698537547142" MODIFIED="1698537553752"/>
 </node>
-<node TEXT="03 Data Types" POSITION="bottom_or_right" ID="ID_646856892" CREATED="1698537662607" MODIFIED="1698673997329"><richcontent TYPE="NOTE">
+<node TEXT="Data Type and Containers" FOLDED="true" POSITION="bottom_or_right" ID="ID_963487065" CREATED="1721806084940" MODIFIED="1721806091614">
+<node TEXT="03 Data Types" FOLDED="true" POSITION="bottom_or_right" ID="ID_646856892" CREATED="1698537662607" MODIFIED="1698673997329"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -156,8 +158,7 @@
       <span style="font-style: italic;">cstr = typeinfo ()</span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="3.1 Built-in Data Types" ID="ID_743664830" CREATED="1698674025652" MODIFIED="1698674039181">
 <node TEXT="Real and Complex Scalars and Matrices" ID="ID_565718139" CREATED="1698674046696" MODIFIED="1698674071564"/>
 <node TEXT="Ranges" ID="ID_1200919815" CREATED="1698674072421" MODIFIED="1698674075212"/>
@@ -169,6 +170,8 @@
 <node TEXT="04 Numeric Data Types" POSITION="bottom_or_right" ID="ID_1314018488" CREATED="1698537665614" MODIFIED="1698537670304"/>
 <node TEXT="05 Strings" POSITION="bottom_or_right" ID="ID_782921727" CREATED="1698537670478" MODIFIED="1698537676552"/>
 <node TEXT="06 Data Containers" POSITION="bottom_or_right" ID="ID_1350175196" CREATED="1698537679190" MODIFIED="1698537684040"/>
+</node>
+<node TEXT="Variables and Basic Processing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1745527998" CREATED="1721806122270" MODIFIED="1721806130880">
 <node TEXT="07 Variables" POSITION="bottom_or_right" ID="ID_870259475" CREATED="1698537684213" MODIFIED="1698537687191"/>
 <node TEXT="08 Expressions" POSITION="bottom_or_right" ID="ID_7600042" CREATED="1698537687350" MODIFIED="1698537690993"/>
 <node TEXT="09 Evaluation" POSITION="bottom_or_right" ID="ID_1791761275" CREATED="1698537691158" MODIFIED="1698537696751"/>
@@ -176,8 +179,12 @@
 <node TEXT="11 Functions and Scripts" POSITION="bottom_or_right" ID="ID_1354062225" CREATED="1698537699638" MODIFIED="1698537703904"/>
 <node TEXT="12 Errors and Warnings" POSITION="bottom_or_right" ID="ID_1895404791" CREATED="1698537704070" MODIFIED="1698537908665"/>
 <node TEXT="13 Debugging" POSITION="bottom_or_right" ID="ID_1644885763" CREATED="1698537908838" MODIFIED="1698537912223"/>
+</node>
+<node TEXT="Input/Output and Plotting" FOLDED="true" POSITION="bottom_or_right" ID="ID_1541980734" CREATED="1721806159806" MODIFIED="1721806166998">
 <node TEXT="14 Input and Output" POSITION="bottom_or_right" ID="ID_1019807574" CREATED="1698537912383" MODIFIED="1698537916454"/>
 <node TEXT="15 Plotting" POSITION="bottom_or_right" ID="ID_1795274954" CREATED="1698537916720" MODIFIED="1698537921127"/>
+</node>
+<node TEXT="Mathematics Related" FOLDED="true" POSITION="bottom_or_right" ID="ID_714984519" CREATED="1721806181364" MODIFIED="1721806193727">
 <node TEXT="16 Matrix Manipulation" POSITION="bottom_or_right" ID="ID_481231427" CREATED="1698537921278" MODIFIED="1698537929938"/>
 <node TEXT="17 Arithmetic" POSITION="bottom_or_right" ID="ID_1850823941" CREATED="1698537930078" MODIFIED="1698537933335"/>
 <node TEXT="18 Linear Algebra" POSITION="bottom_or_right" ID="ID_727193390" CREATED="1698537933486" MODIFIED="1698537938644"/>
@@ -187,18 +194,25 @@
 <node TEXT="22 Sparse Matrices" POSITION="bottom_or_right" ID="ID_1715554803" CREATED="1698537968054" MODIFIED="1698537972985"/>
 <node TEXT="23 Numerical Integration" POSITION="bottom_or_right" ID="ID_1451032236" CREATED="1698537973151" MODIFIED="1698537982041"/>
 <node TEXT="24 Differential Equations" POSITION="bottom_or_right" ID="ID_1696732782" CREATED="1698537982206" MODIFIED="1698537987104"/>
+</node>
+<node TEXT="Optimization and Statistics/Sets" FOLDED="true" POSITION="bottom_or_right" ID="ID_604869127" CREATED="1721806213413" MODIFIED="1721806223662">
 <node TEXT="25 Optimization" POSITION="bottom_or_right" ID="ID_1426455021" CREATED="1698537987254" MODIFIED="1698537990728"/>
 <node TEXT="26 Statistics" POSITION="bottom_or_right" ID="ID_39896984" CREATED="1698537990870" MODIFIED="1698537993937"/>
 <node TEXT="27 Sets" POSITION="bottom_or_right" ID="ID_888713349" CREATED="1698537994095" MODIFIED="1698537995671"/>
 <node TEXT="28 Polynomial Manipulations" POSITION="bottom_or_right" ID="ID_1224137295" CREATED="1698537995830" MODIFIED="1698538004415"/>
 <node TEXT="29 Interpolation" POSITION="bottom_or_right" ID="ID_121516034" CREATED="1698538004574" MODIFIED="1698538008575"/>
+</node>
+<node TEXT="Multimedia" FOLDED="true" POSITION="bottom_or_right" ID="ID_1435012615" CREATED="1721806236020" MODIFIED="1721806244814">
 <node TEXT="30 Geometry" POSITION="bottom_or_right" ID="ID_1434005859" CREATED="1698538008734" MODIFIED="1698538012553"/>
 <node TEXT="31 Signal Processing" POSITION="bottom_or_right" ID="ID_409154134" CREATED="1698538012702" MODIFIED="1698538018400"/>
 <node TEXT="32 Image Processing" POSITION="bottom_or_right" ID="ID_1687066112" CREATED="1698538018559" MODIFIED="1698538022815"/>
 <node TEXT="33 Audio Processing" POSITION="bottom_or_right" ID="ID_460738970" CREATED="1698538022967" MODIFIED="1698538028002"/>
+</node>
+<node TEXT="Others" FOLDED="true" POSITION="bottom_or_right" ID="ID_269741428" CREATED="1721806254405" MODIFIED="1721806259702">
 <node TEXT="34 Object Oriented Programming" POSITION="bottom_or_right" ID="ID_76467953" CREATED="1698538028166" MODIFIED="1698538038311"/>
 <node TEXT="35 GUI Development" POSITION="bottom_or_right" ID="ID_172321492" CREATED="1698538038470" MODIFIED="1698538044583"/>
 <node TEXT="36 System Utilities" POSITION="bottom_or_right" ID="ID_1189826730" CREATED="1698538044742" MODIFIED="1698538049847"/>
 <node TEXT="37 Packages" POSITION="bottom_or_right" ID="ID_127596364" CREATED="1698538052190" MODIFIED="1698538055135"/>
+</node>
 </node>
 </map>
